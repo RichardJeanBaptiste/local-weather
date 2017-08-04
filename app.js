@@ -5,18 +5,22 @@ $(document).ready(function() {
   var fTemp;
   var celsius;
 
+      
 
-    function changeBackground(fTemp){
+   function changeBackground(fTemp){
           if (fTemp > 80) {
-            $('body').css('background-image', 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/A_sunny_day_in_Bradford_City_Park_(Taken_by_Flickr_user_8th_September_2012).jpg/1280px-A_sunny_day_in_Bradford_City_Park_(Taken_by_Flickr_user_8th_September_2012).jpg)');
+            $("body").css("background-image", "url(http://www.whiskyisrael.co.il/wp-content/uploads/2016/07/summertime-7-super-strategies-for-seniors.jpg)");
           } else if (fTemp > 60) {
-            $('body').css('background-image', 'url(https://c2.staticflickr.com/2/1340/5159112845_cc45f95283_b.jpg)');
+            $("body").css("background-image", 'url(http://az616578.vo.msecnd.net/files/2016/08/11/636065554421332270-922755664_fall%20(1).jpg)');
           } else if (fTemp > 40) {
-            $('body').css('background-image', 'url(https://www.stgeorges.co.uk/sites/default/files/blog_uploads/2012/02/snow_london.jpg)');
+            $("body").css('background-image', 'url(https://www.stgeorges.co.uk/sites/default/files/blog_uploads/2012/02/snow_london.jpg)');
           } else if (fTemp > 100) {
-            $('body').css('background-image', 'url(http://rappingmanual.com/wp-content/uploads/2014/10/mixtape3.jpg)');
+            $("body").css('background-image', 'url(http://rappingmanual.com/wp-content/uploads/2014/10/mixtape3.jpg)');
           }
+
+          console.log("background changed");
     };
+ 
   
 
   if(navigator.geolocation) {
@@ -50,7 +54,7 @@ $(document).ready(function() {
         $("#city").html(city);
         $("#weatherType").html(weatherType);
         $("#temp").html(fTemp + "&#8457;");
-        $('body').css(changeBackground(fTemp));
+        $("body").css(changeBackground(fTemp));
         
       
 
@@ -58,4 +62,8 @@ $(document).ready(function() {
   });
 }
 
-   });
+
+
+
+
+ });
