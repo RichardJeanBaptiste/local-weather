@@ -1,0 +1,38 @@
+body {
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+.summer{
+	background-image: url(summertime_img.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+.fall{
+	background-image: url(fall_img.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+.winter{
+	background-image: url(winter_img.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+.spring{
+	background-image: url(spring_img.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+.blazing{
+    background-image: url(this_girl_is_on_fire.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+img {
+	 border-radius: 4px;
+    width: 50px;
+}
