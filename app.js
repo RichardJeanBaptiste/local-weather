@@ -53,7 +53,7 @@ $(document).ready(function() {
       });
 
         $("#city").html(city);
-        $("#weatherType").html(weatherType + " " + "<img src=" + "http://openweathermap.org/img/w/" + iconCode + ".png" + " " + "style=" + "width:20px" + ">");
+        $("#weatherType").html(weatherType + " " + "<img src=" + "https://openweathermap.org/img/w/" + iconCode + ".png" + " " + "style=" + "width:20px" + ">");
         $("#temp").html(fTemp + "&#8457;");
         $("body").addClass(changeBackground(fTemp));
         
